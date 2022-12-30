@@ -1,7 +1,8 @@
 
 // AXIOS API ==============================
 const axios = require("axios");
-var host = "http://localhost:3000";
+//var host = "http://localhost:3001";
+var host = "http://159.89.188.245:3001";
 const api = axios.create({
     baseURL: host,
     headers: { "Content-Type": "application/json" }
